@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.header{
+    height: 15vh;
+    background-color: red;
+}
+.links{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.content{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    align-self: center;
+}
+.footer{
+    height: 15vh;
+    background-color: blue;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+.sidebar{
+     width: 15vw;
+    background-color: green;
+}
